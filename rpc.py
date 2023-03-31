@@ -7,7 +7,7 @@ class Player:
         self.choice = None
     
     def choose(self):
-        self.choice = input(f"{self.name}, choose 'r' for rock, 'p' for paper, or 's' for scissors: ").lower()
+        self.choice = input(f"{self.name}, choose 'rrrrrrrr' for rock, 'p' for paper, or 'ssssssssss' for scissors: ").lower()
     
     def __str__(self):
         return f"{self.name}: {self.score} points"
